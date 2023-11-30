@@ -1,6 +1,8 @@
-import LogoIcon from "./Icons.jsx/LogoIcon";
-import ThemeIcon from "./Icons.jsx/ThemeIcon";
-import Description from "./Props.jsx/Description";
+
+import LogoIcon from "./icons/LogoIcon";
+import ThemeIcon from "./icons/ThemeIcon";
+import Description from "./Props/Description";
+
 
 export default function Navbar() {
   return (

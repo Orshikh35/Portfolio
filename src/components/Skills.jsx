@@ -1,19 +1,19 @@
-import Tag from "./Props.jsx/Tag";
-import Subheading from "./Props.jsx/Subheading";
-import JS from "./Logo.jsx/JS";
-import Typescript from "./Logo.jsx/TypeScript";
-import React from "./Logo.jsx/React";
-import Node from "./Logo.jsx/Node";
-import Express from "./Logo.jsx/Express";
-import Nest from "./Logo.jsx/Nest";
-import Socket from "./Logo.jsx/Socket";
-import MongoDB from "./Logo.jsx/MongoDB";
-import Sass from "./Logo.jsx/Sass";
-import Tailwindcss from "./Logo.jsx/Tailwindcss";
-import Figma from "./Logo.jsx/Figma";
-import Cypress from "./Logo.jsx/Cypress";
-import Storybook from "./Logo.jsx/Storybook";
-import Git from "./Logo.jsx/Git";
+import Tag from "./Props/Tag";
+import Subheading from "./Props/Subheading";
+import JS from "./logo/JS";
+import Typescript from "./logo/TypeScript";
+import React from "./logo/React";
+import Node from "./logo/Node";
+import Express from "./logo/Express";
+import Nest from "./logo/Nest";
+import Socket from "./logo/Socket";
+import MongoDB from "./logo/MongoDB";
+import Sass from "./logo/Sass";
+import Tailwindcss from "./logo/Tailwindcss";
+import Figma from "./logo/Figma";
+import Cypress from "./logo/Cypress";
+import Storybook from "./logo/Storybook";
+import Git from "./logo/Git";
 
 export default function Skills() {
   return (

@@ -1,4 +1,4 @@
-import CIcon from "./Icons.jsx/CIcon";
+import CIcon from "./icons/CIcon";
 
 export default function Footer() {
   return (

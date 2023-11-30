@@ -1,8 +1,8 @@
 import ProImg from "../assets/Pic.png";
-import Tag from "./Props.jsx/Tag";
-import AboutText from "./Props.jsx/AboutText";
-import Round from "./Icons.jsx/Round";
-import RoundTwo from "./Icons.jsx/RoundTwo";
+import Tag from "./Props/Tag";
+import AboutText from "./Props/AboutText";
+import Round from "./icons/Round";
+import RoundTwo from "./icons/RoundTwo";
 
 export default function About() {
   return (

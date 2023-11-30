@@ -1,9 +1,9 @@
-import Tag from "./Props.jsx/Tag";
-import Subheading from "./Props.jsx/Subheading";
-import Mail from "./Icons.jsx/Mail";
-import Copy from "./Icons.jsx/CopyIcon";
-import Phone from "./Icons.jsx/PhoneIcon";
-import ActionsIcon from "./Icons.jsx/ActionIcons";
+import Tag from "./Props/Tag";
+import Subheading from "./Props/Subheading";
+import Mail from "./icons/Mail";
+import Copy from "./icons/CopyIcon";
+import Phone from "./icons/PhoneIcon";
+import ActionsIcon from "./icons/ActionIcons";
 
 export default function Contact() {
   return (

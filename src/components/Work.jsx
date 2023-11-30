@@ -1,14 +1,14 @@
-import Tag from "./Props.jsx/Tag";
-import Subheading from "./Props.jsx/Subheading";
-import ExperienceTitle from "./Props.jsx/ExperienceTitle";
-import ExperienceCardText from "./Props.jsx/ExperienceCardText";
+import Tag from "./Props/Tag";
+import Subheading from "./Props/Subheading";
+import ExperienceTitle from "./Props/ExperienceTitle";
+import ExperienceCardText from "./Props/ExperienceCardText";
 import Img from "../assets/Column.png"
-import Actions from "./Icons.jsx/Actions";
+import Actions from "./icons/Actions";
 
 export default function Work() {
   return (
     <div className="w-screen flex justify-center">
-      <div className="max-w-7xl w-[1280px] my-24 px-8 flex flex-col gap-12">
+      <div className="max-w-7xl  w-[1280px] my-24 px-8 flex flex-col gap-12">
         <div className="flex flex-col gap-4">
           <div className="flex justify-center">
             <Tag context="Work" />
@@ -20,10 +20,10 @@ export default function Work() {
 
         <div className="flex flex-col gap-12">
           <div className="flex rounded-xl shadow-lg">
-            <div className="w-[1216px]">
-                <img src={Img.src} className="h-[480px]"/>
+            <div className=" w-2/4">
+                <img src={Img.src} className="h-[520px]"/>
             </div>
-            <div className="p-12 flex flex-col gap-6 ">
+            <div className="p-12 flex flex-col gap-6 w-2/4 ">
               <ExperienceTitle context="Fiskill"/>
               <ExperienceCardText context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae." />
               <div className="flex items-center content-center gap-4 self-strech flex-wrap">
@@ -46,9 +46,9 @@ export default function Work() {
           </div>
 
           <div className="flex rounded-xl shadow-lg">
-            <div className="p-12 flex flex-col gap-6 ">
+            <div className="p-12 flex flex-col gap-6 w-2/4 ">
               <ExperienceTitle context="Fiskill"/>
-              <ExperienceCardText context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae." />
+              <ExperienceCardText context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae." />
               <div className="flex items-center content-center gap-4 self-strech flex-wrap">
                 <Tag context="React"/>
                 <Tag context="Next.js"/>
@@ -65,17 +65,17 @@ export default function Work() {
               <Actions/>
               </div>
             </div>
-            <div className="w-[1216px]">
-                <img src={Img.src} className="h-[480px]"/>
+            <div className="w-2/4">
+                <img src={Img.src} className="h-[520px]"/>
             </div>
 
           </div>
 
           <div className="flex rounded-xl shadow-lg">
-            <div className="w-[1216px]">
-                <img src={Img.src} className="h-[480px]"/>
+            <div className="w-2/4">
+                <img src={Img.src} className="h-[520px]"/>
             </div>
-            <div className="p-12 flex flex-col gap-6 ">
+            <div className="p-12 flex flex-col gap-6 w-2/4">
               <ExperienceTitle context="Fiskill"/>
               <ExperienceCardText context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae." />
               <div className="flex items-center content-center gap-4 self-strech flex-wrap">

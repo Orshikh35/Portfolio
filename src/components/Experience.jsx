@@ -1,9 +1,9 @@
-import Subheading from "./Props.jsx/Subheading";
-import Tag from "./Props.jsx/Tag";
+import Subheading from "./Props/Subheading";
+import Tag from "./Props/Tag";
 import Upwork from "../assets/logo-upwork.png";
-import ExperienceTitle from "./Props.jsx/ExperienceTitle";
-import ExperinceCardTexte from "./Props.jsx/ExperienceCardText";
-import Date from "./Props.jsx/Date";
+import ExperienceTitle from "./Props/ExperienceTitle";
+import ExperinceCardTexte from "./Props/ExperienceCardText";
+import Date from "./Props/Date";
 
 export default function Experience() {
   return (

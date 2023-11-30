@@ -1,7 +1,7 @@
-import Text from "./Props.jsx/Text";
-import LocationIcon from "./Icons.jsx/LocationIcon";
-import GreenIcon from "./Icons.jsx/GreenIcon";
-import ActionsIcon from "./Icons.jsx/ActionIcons";
+import Text from "./Props/Text";
+import LocationIcon from "./icons/LocationIcon";
+import GreenIcon from "./icons/GreenIcon";
+import ActionsIcon from "./icons/ActionIcons";
 import ProfileImg from "../assets/Picture.png";
 
 
