@@ -1,6 +1,9 @@
 export default function LogoIcon() {
+
+  
     return (
-      <svg
+   <div className="dark:bg-white">
+       <svg
         width="92"
         height="27"
         viewBox="0 0 92 27"
@@ -12,6 +15,7 @@ export default function LogoIcon() {
           fill="#111827"
         />
       </svg>
+   </div>
     );
   }
   

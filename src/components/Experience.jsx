@@ -7,7 +7,7 @@ import Date from "./Date";
 
 export default function Experience() {
   return (
-    <div className=" bg-slate-50 w-screen flex justify-center">
+    <div className="dark:bg-gray-900 bg-slate-50 w-screen flex justify-center">
       <div className="max-w-7xl w-[1280px] my-24 px-8 flex flex-col gap-12">
         <div className="flex flex-col gap-4">
           <div className="flex justify-center">
@@ -22,7 +22,7 @@ export default function Experience() {
 
 
           <div className="flex justify-center ">
-            <div className="w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
+            <div className="dark:bg-gray-800 w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
               <div>
                 <img src={Upwork.src} alt="" />
               </div>
@@ -44,7 +44,7 @@ export default function Experience() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
+            <div className="dark:bg-gray-800 w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
               <div>
                 <img src={Upwork.src} alt="" />
               </div>
@@ -66,7 +66,7 @@ export default function Experience() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
+            <div className="dark:bg-gray-800 w-[896px] h-auto py-8 px-8 flex gap-12 justify-between shadow-2xl rounded-xl bg-white">
               <div>
                 <img src={Upwork.src} alt="" />
               </div>

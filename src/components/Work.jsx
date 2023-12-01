@@ -7,7 +7,7 @@ import Actions from "./icons/Actions";
 
 export default function Work() {
   return (
-    <div className="w-screen flex justify-center">
+    <div className=" dark:bg-gray-950 w-screen flex justify-center">
       <div className="max-w-7xl  w-[1280px] my-24 px-8 flex flex-col gap-12">
         <div className="flex flex-col gap-4">
           <div className="flex justify-center">
@@ -19,7 +19,7 @@ export default function Work() {
         </div>
 
         <div className="flex flex-col gap-12">
-          <div className="flex rounded-xl shadow-lg">
+          <div className=" dark:bg-gray-800 flex rounded-xl shadow-lg">
             <div className=" w-2/4">
                 <img src={Img.src} className="h-[520px]"/>
             </div>
@@ -45,7 +45,7 @@ export default function Work() {
 
           </div>
 
-          <div className="flex rounded-xl shadow-lg">
+          <div className=" dark:bg-gray-800  flex rounded-xl shadow-lg">
             <div className="p-12 flex flex-col gap-6 w-2/4 ">
               <ExperienceTitle context="Fiskill"/>
               <ExperienceCardText context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae." />
@@ -71,7 +71,7 @@ export default function Work() {
 
           </div>
 
-          <div className="flex rounded-xl shadow-lg">
+          <div className="dark:bg-gray-800 flex rounded-xl shadow-lg">
             <div className="w-2/4">
                 <img src={Img.src} className="h-[520px]"/>
             </div>

@@ -6,7 +6,7 @@ import RoundTwo from "./icons/RoundTwo";
 
 export default function About() {
   return (
-    <div className=" bg-slate-50 w-screen flex justify-center">
+    <div className="dark:bg-gray-900 bg-slate-50 w-screen flex justify-center">
       <div className="max-w-7xl  my-24 px-8">
         <div className="flex justify-center items-center">
           <Tag context="About me" />

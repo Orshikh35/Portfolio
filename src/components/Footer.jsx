@@ -2,7 +2,7 @@ import CIcon from "./icons/CIcon";
 
 export default function Footer() {
   return (
-    <div className=" bg-slate-50 w-screen flex justify-center">
+    <div className="dark:bg-gray-900 bg-slate-50 w-screen flex justify-center">
       <div className="py-6 flex justify-center items-center gap-2">
         <CIcon />
         <p className="text-sm text-current font-normal leading-5">

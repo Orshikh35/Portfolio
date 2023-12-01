@@ -1,4 +1,4 @@
-export default function ThemeIcon() {
+const Theme = () => {
     return (
       <svg
         width="36"
@@ -73,4 +73,6 @@ export default function ThemeIcon() {
       </svg>
     );
   }
+
+  export default Theme
   

@@ -1,5 +1,5 @@
 export default function AboutText(props) {
     return (
-      <p className="text-gray-600 font-inter text-4 not-talic font-normal leading-6">{props.context}</p>
+      <p className="dark:text-gray-300 text-gray-600 font-inter text-4 not-talic font-normal leading-6">{props.context}</p>
     );
   }
