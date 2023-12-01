@@ -20,8 +20,8 @@ export default function Work() {
 
         <div className="flex flex-col gap-12">
           <div className=" dark:bg-gray-800 flex rounded-xl shadow-lg">
-            <div className=" w-2/4">
-                <img src={Img.src} className="h-[520px]"/>
+            <div className=" w-2/4 dark:bg-gray-700 flex justify-center items-center rounded-l-xl bg-gray-100">
+                <img src={Img.src} className="h-[384px]"/>
             </div>
             <div className="p-12 flex flex-col gap-6 w-2/4 ">
               <ExperienceTitle context="Fiskill"/>
@@ -65,15 +65,15 @@ export default function Work() {
               <Actions/>
               </div>
             </div>
-            <div className="w-2/4">
-                <img src={Img.src} className="h-[520px]"/>
+            <div className="w-2/4 dark:bg-gray-700 flex justify-center items-center rounded-r-xl bg-gray-100">
+                <img src={Img.src} className="h-[384px]"/>
             </div>
 
           </div>
 
           <div className="dark:bg-gray-800 flex rounded-xl shadow-lg">
-            <div className="w-2/4">
-                <img src={Img.src} className="h-[520px]"/>
+            <div className=" w-2/4 dark:bg-gray-700 flex justify-center items-center rounded-l-xl bg-gray-100">
+                <img src={Img.src} className="h-[384px]"/>
             </div>
             <div className="p-12 flex flex-col gap-6 w-2/4">
               <ExperienceTitle context="Fiskill"/>
