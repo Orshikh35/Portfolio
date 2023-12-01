@@ -1,7 +1,7 @@
 import Tag from "./Tag";
-import Subheading from "./Props/Subheading";
-import ExperienceTitle from "./Props/ExperienceTitle";
-import ExperienceCardText from "./Props/ExperienceCardText";
+import Subheading from "./Subheading";
+import ExperienceTitle from "./ExperienceTitle";
+import ExperienceCardText from "./ExperienceCardText";
 import Img from "../assets/Column.png"
 import Actions from "./icons/Actions";
 

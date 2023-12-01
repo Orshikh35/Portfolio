@@ -1,5 +1,5 @@
 import Tag from "./Tag";
-import Subheading from "./Props/Subheading";
+import Subheading from "./Subheading";
 import Mail from "./icons/Mail";
 import Copy from "./icons/CopyIcon";
 import Phone from "./icons/PhoneIcon";

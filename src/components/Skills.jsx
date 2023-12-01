@@ -1,5 +1,5 @@
 import Tag from "./Tag";
-import Subheading from "./Props/Subheading";
+import Subheading from "./Subheading";
 import JS from "./logo/JS";
 import Typescript from "./logo/TypeScript";
 import React from "./logo/React";
