@@ -1,4 +1,4 @@
-import Tag from "./Props/Tag";
+import Tag from "./Tag";
 import Subheading from "./Props/Subheading";
 import JS from "./logo/JS";
 import Typescript from "./logo/TypeScript";

@@ -1,4 +1,4 @@
-import Tag from "./Props/Tag";
+import Tag from "./Tag";
 import Subheading from "./Props/Subheading";
 import Mail from "./icons/Mail";
 import Copy from "./icons/CopyIcon";

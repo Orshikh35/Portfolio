@@ -1,5 +1,5 @@
 import Subheading from "./Props/Subheading";
-import Tag from "./Props/Tag";
+import Tag from "./Tag";
 import Upwork from "../assets/logo-upwork.png";
 import ExperienceTitle from "./Props/ExperienceTitle";
 import ExperinceCardTexte from "./Props/ExperienceCardText";

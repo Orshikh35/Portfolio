@@ -1,4 +1,4 @@
-import Tag from "./Props/Tag";
+import Tag from "./Tag";
 import Subheading from "./Props/Subheading";
 import ExperienceTitle from "./Props/ExperienceTitle";
 import ExperienceCardText from "./Props/ExperienceCardText";
