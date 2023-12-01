@@ -1,7 +1,7 @@
 
 import LogoIcon from "./icons/LogoIcon";
 import ThemeIcon from "./icons/ThemeIcon";
-import Description from "./Props/Description";
+import Description from "./Description";
 
 
 export default function Navbar() {

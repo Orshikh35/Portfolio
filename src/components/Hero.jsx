@@ -1,4 +1,4 @@
-import Text from "./Props/Text";
+import Text from "./Text";
 import LocationIcon from "./icons/LocationIcon";
 import GreenIcon from "./icons/GreenIcon";
 import ActionsIcon from "./icons/ActionIcons";

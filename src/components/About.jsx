@@ -1,6 +1,6 @@
 import ProImg from "../assets/Pic.png";
 import Tag from "./Tag";
-import AboutText from "./Props/AboutText";
+import AboutText from "./AboutText";
 import Round from "./icons/Round";
 import RoundTwo from "./icons/RoundTwo";
 
