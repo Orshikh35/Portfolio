@@ -1,10 +1,28 @@
-
+import { useState } from "react";
 import LogoIcon from "./icons/LogoIcon";
 import ThemeIcon from "./icons/ThemeIcon";
 import Description from "./Description";
-
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
+  
+  const [isOpen, setIsOpen] = useState(false)
+  const { theme, setTheme } = useTheme()
+
+
+  const menuHandler = () => {
+      setIsOpen(!isOpen)
+  }
+
+  const themeToggle = () => {
+      if (theme == 'dark') {
+          setTheme('light')
+      }
+      if (theme == 'light') {
+          setTheme('dark')
+      }
+  }
+  
   return (
     <div className="max-w-7xl w-full my-4 ">
       <div className="px-8 flex justify-between items-center ">
@@ -23,7 +41,7 @@ export default function Navbar() {
           </div>
           <div className="flex gap-4">
             <ThemeIcon />
-            <button className="bg-black text-white py-1.5 px-4 rounded-xl">
+            <button className="dark:bg-white dark:text-gray-900 bg-black text-white py-1.5 px-4 rounded-xl">
               Download CV
             </button>
           </div>
